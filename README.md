@@ -63,6 +63,11 @@ m = \frac{1}{W} \sum_{i=0}^{W-1} x_i^2
 ## Usage
 
 ```javascript
+import incrmmeanabs2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mmeanabs2@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-incr-mmeanabs2/tags). For example,
+
+```javascript
 import incrmmeanabs2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mmeanabs2@v0.2.0-esm/index.mjs';
 ```
 
@@ -133,7 +138,7 @@ m = accumulator();
 <script type="module">
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import incrmmeanabs2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mmeanabs2@v0.2.0-esm/index.mjs';
+import incrmmeanabs2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mmeanabs2@esm/index.mjs';
 
 var accumulator;
 var v;
