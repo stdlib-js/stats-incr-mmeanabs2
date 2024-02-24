@@ -63,7 +63,7 @@ m = \frac{1}{W} \sum_{i=0}^{W-1} x_i^2
 ## Usage
 
 ```javascript
-import incrmmeanabs2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mmeanabs2@deno/mod.js';
+import incrmmeanabs2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mmeanabs2@v0.2.1-deno/mod.js';
 ```
 
 #### incrmmeanabs2( window )
@@ -128,7 +128,7 @@ m = accumulator();
 
 ```javascript
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
-import incrmmeanabs2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mmeanabs2@deno/mod.js';
+import incrmmeanabs2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mmeanabs2@v0.2.1-deno/mod.js';
 
 var accumulator;
 var v;
